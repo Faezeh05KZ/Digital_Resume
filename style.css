@@ -1,0 +1,120 @@
+body
+{
+    font-family: 'Poppins', sans-serif;
+    background-color : white ;
+    margin : 0 ;
+    padding : 0;
+    direction : ltr ; 
+}
+
+.container
+{
+    display : flex;
+    max-width : 1000px ;
+    min-height : 600px ;
+    margin : 30px auto ;
+    background-color : white ;
+    box-shadow : 0 0 15px rgba(0, 0, 0, 0.1) ;
+}
+
+header
+{
+    background : linear-gradient(45deg, #cc96e4, #405fa8) ;
+    color : white ;
+    padding : 30px ;
+    width : 30% ;
+}
+
+header h1
+{
+    margin : 0 ;
+    font-size : 50px ;
+    text-align : left; 
+}
+
+header h3
+{
+    margin : 10px 0 ;
+    font-size : 23px  ;
+    font-weight : 800 ;
+    text-align : left ;
+}
+
+header h5
+{
+    margin: 5px 0;
+    font-size: 14px ;
+    font-weight: 300 ;
+    text-align : left ; 
+}
+
+
+.contact-box h5
+{
+    margin : 0 0 10px 0 ;
+    font-size : 16px ; 
+    font-weight : 400 ;
+    text-align : left ;
+}
+
+header p
+{
+    font-size : 14px ;
+    line-height : 1.6 ;
+    margin : 0 ;
+    text-align : left ;
+}
+
+.main-content
+{
+    padding: 30px;
+    width: 65%;
+}
+
+section
+{
+    margin-bottom: 60px ;
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif ;
+    font-weight : 50 ;
+
+
+}
+
+section h2
+{
+    color: #541c6bdb ;
+    border-bottom: 2px solid #4c6575 ;
+    padding-bottom: 5px ;
+    margin-bottom: 15px ;
+    font-size: 23px ;
+    text-align: left ;
+}
+
+ul
+{
+    list-style-type: none;
+    padding: 0;
+    margin: 0 ;
+}
+
+ul li
+{
+    margin : 10px 0;
+    font-size : 16px;
+    text-align : left;
+}
+
+ul li:before
+{
+    content: "✦ ";
+    color: #2e373d;
+}
+
+p
+{
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+    text-align: left;
+}
